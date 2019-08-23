@@ -1,0 +1,4 @@
+title: "GSF Paladin"
+behaviors:
+  progressive-respawn:
+    interval: 20

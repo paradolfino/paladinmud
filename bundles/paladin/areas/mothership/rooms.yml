@@ -1,0 +1,25 @@
+- id: cryobay
+  title: "GSF Paladin - Cryobay 1"
+  description: "A large sterile looking room with human-sized glass pods lining the walls. Some of the pods are open and you can see they are empty. Some are still closed and clearly occupied. "
+  # npcs: []
+  # items:
+  #   - id: "limbo:woodenchest"
+  #     respawnChance: 20
+  #     replaceOnRespawn: true # when this chest respawns completely replace it so its contents get refreshed
+  # script: "cryobay"
+  exits:
+    - roomId: "mothership:mainrotunda"
+      direction: east
+    #   leaveMessage: " steps into the void and disappears."
+    # - roomId: "limbo:ancientwayshrine"
+    #   direction: down
+    # - roomId: "limbo:wallys"
+    #   direction: west
+    - roomId: "mothership:armory"
+      direction: north
+- id: armory
+  title: "GSF Paladin - Armory"
+  description: "A large metallic room line with lockers, cages, and shelves with folded clothes, shoes, gloves, and helmets stacked atop them. Inside the cages you can see what appear to be weapons of different makes and models."
+- id: mainrotunda
+  title: "GSF Paladin - Main Rotunda"
+  description: "The the largest section of the Paladin is the Main Rotunda that is both wide and tall. The space is used as a traffic hub by the rest of the ship, but there are also various seating areas and decorative flora. "
